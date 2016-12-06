@@ -8,8 +8,11 @@ To Do Liste
 Bash Scripting (Dernert)
 
 Auslesen der verschiedensten Eigenschaften des Raspberry.
--CPU Temp
--Voltage
+- CPU Temp
+- Voltage
+- RAM
+- CPU Auslastung
+- Freier Speicher
 
 
 PHP Development (Funkahdafi)
