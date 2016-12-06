@@ -5,7 +5,7 @@
 To Do Liste
 -----------
 
-Bash Scripting:
+Bash Scripting (Dernert)
 
 
-PHP Development:
+PHP Development (Funkahdafi)
