@@ -1,3 +1,11 @@
-guibian (PHP Frontend mit Bash-Unterbau)
++-----------------------------------------------------------+
+| guibian (PHP Frontend mit Bash-Unterbau für Raspberry Pi) |
++-----------------------------------------------------------+
 
-To Do Liste:
+To Do Liste
+-----------
+
+Bash Scripting:
+
+
+PHP Development:
