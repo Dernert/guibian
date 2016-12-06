@@ -7,5 +7,9 @@ To Do Liste
 
 Bash Scripting (Dernert)
 
+Auslesen der verschiedensten Eigenschaften des Raspberry.
+-CPU Temp
+-Voltage
+
 
 PHP Development (Funkahdafi)
