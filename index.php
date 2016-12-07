@@ -12,3 +12,7 @@
 <center><h1>guibian: Ein Raspberry Pi Monitoring Tool</h1></center><br>
 <center><h4>Folge uns bei Github: <a href="https://github.com/Dernert/guibian" target=_blank>guibian</a></h4></center>
 </body>
+
+<?php
+
+?>
