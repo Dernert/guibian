@@ -18,5 +18,5 @@ Auslesen der verschiedensten Eigenschaften des Raspberry.
 PHP Development (Funkahdafi)
 
 - Auswerten der Shell-Scripte
-- Aufbau des Frontends (Design ? CSS)
+- Frontend-Design (CSS)
 - Admin-Bereich
