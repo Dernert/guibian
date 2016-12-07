@@ -21,3 +21,4 @@ PHP Development (Funkahdafi)
 - Auswerten und anzeigen der Shell-Scripte
 - Frontend-Design (CSS)
 - externer Admin-Bereich
+- MySQL Datenbank: avg(CPUTemp)
