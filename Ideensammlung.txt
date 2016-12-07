@@ -16,10 +16,13 @@ Auslesen der verschiedensten Eigenschaften des Raspberry.
 - Freier Speicher
 - Belegter Speicher (/var/log, /lib/modules...)
 - Uptime
+- System Reboot / Shutdown (via PHP Admin Menü)
+- Interface, IP, MAC
+- Anzeige Traffic
 
 PHP Development (Funkahdafi)
 ----------------------------
 - Auswerten und anzeigen der Shell-Scripte
 - Frontend-Design (CSS)
-- externer Admin-Bereich
+- externer Admin-Bereich (Zugriffsschutz via .htaccess)
 - MySQL Datenbank: avg(CPUTemp)
