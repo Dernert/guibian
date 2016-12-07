@@ -1,22 +1,23 @@
 +-----------------------------------------------------------+
-| guibian (PHP Frontend mit Bash-Unterbau für Raspberry Pi) |
+|           guibian: Raspberry Pi Monitoring Tool)          |
 +-----------------------------------------------------------+
 
-To Do Liste
------------
++-----------+
+|To Do Liste|
++-----------+
 
 Bash Scripting (Dernert)
-
+------------------------
 Auslesen der verschiedensten Eigenschaften des Raspberry.
 - CPU Temp
 - Voltage
 - RAM
 - CPU Auslastung
 - Freier Speicher
-
+- Belegter Speicher (/var/log, /lib/modules...)
 
 PHP Development (Funkahdafi)
-
-- Auswerten der Shell-Scripte
+----------------------------
+- Auswerten und anzeigen der Shell-Scripte
 - Frontend-Design (CSS)
-- Admin-Bereich
+- externer Admin-Bereich
