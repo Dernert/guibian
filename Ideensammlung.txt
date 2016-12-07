@@ -12,9 +12,10 @@ Auslesen der verschiedensten Eigenschaften des Raspberry.
 - CPU Temp
 - Voltage
 - RAM
-- CPU Auslastung
+- CPU Auslastung, Takt, Typ
 - Freier Speicher
 - Belegter Speicher (/var/log, /lib/modules...)
+- Uptime
 
 PHP Development (Funkahdafi)
 ----------------------------
