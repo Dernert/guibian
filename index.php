@@ -1,18 +1,53 @@
+<?php
+
+/**
+ *
+ * guibian ist und bleibt OpenSource.
+ * Die Autoren sind: https://github.com/Dernert und https://github.com/Funkahdafi
+ * GitHub: https://github.com/Dernert/guibian
+ *
+ * guibian wird entwickelt seit Dezember 2016.
+ *
+ * Stay tuned !!!
+ *
+ */
+
+?>
+
 <!DOCTYPE html>
 <html lang="de">
 <head>
-	<meta charset="UTF-8">
-	<title>Willkommen zu guibian</title>
-	<meta name="description" content="guibian: Raspberry Pi Monitoring Tool">
-	<link href="./css/design.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>Willkommen zu guibian</title>
+    <meta name="description" content="guibian: Raspberry Pi Monitoring Tool">
+    <link href="./css/design.css" rel="stylesheet">
 </head>
 
 <body>
-<br>
+
+<div id="wrapper">
+
+    <div id="header">
+        <center><h1>guibian: Ein Raspberry Pi Monitoring Tool</h1></center>
+        <center><h4>Folge uns bei Github: <a href=https://github.com/Dernert/guibian target=_blank>guibian</a></h4>
+        </center>
+    </div>
+
+    <div id="boxen">
+        <div id="links"> Monitoring 1</div>
+        <div id="mitte"> Monitoring 2</div>
+        <div id="rechts"> Monitoring 3</div>
+        <div id="rechtsunten"> Monitoring 4</div>
+    </div>
+
+    <div id="footer">guibian wird seit 2016 von <a href="https://github.com/Dernert" target="_blank">Dernert</a> & <a
+                href="https://github.com/Funkahdafi" target="_blank">Funkahdafi</a> entwickelt | <a
+                href="https://github.com/Dernert/guibian" target="_blank">guibian@GitHub</a></div>
+
+</div>
+
 
 </body>
+</html>
 
-<?php
-echo "<center><h1>guibian: Ein Raspberry Pi Monitoring Tool</h1></center><br>";
-echo "<center><h4>Folge uns bei Github: <a href=https://github.com/Dernert/guibian target=_blank>guibian</a></h4></center>";
-?>
+
