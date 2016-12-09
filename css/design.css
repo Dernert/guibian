@@ -2,7 +2,6 @@ body {
     margin: 0 auto;
     background-color: white;
     font-family: "Arial", Courier, mono;
-
 }
 
 #wrapper {
@@ -10,10 +9,9 @@ body {
     width: 100%;
 }
 
-
 #header {
     background-color: #00a0d2;
-    color: black;
+    color: #000000;
     height: 120px;
     width: 100%;
     padding-top: 5px;
@@ -24,10 +22,10 @@ body {
     border-right: 0;
     border-bottom: 1px;
     border-style: solid;
-    background-position: left, top;
+    background-position: 100px, top;
     background-image: url(".././images/raspberry-penguin-152-191477.png");
     background-repeat: no-repeat;
-
+    text-align: center;
 }
 
 #footer {
@@ -47,7 +45,7 @@ body {
     border-style: solid;
 }
 
-.box{
+.box {
     background-color: #00a0d2;
     border-color: #000000;
     box-shadow: 3px 3px 2px #000000;
@@ -62,6 +60,7 @@ body {
     height: 350px;
     margin-top: 10%;
 }
+
 #links_oben {
     margin-left: 5%;
 }
