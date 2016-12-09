@@ -21,6 +21,7 @@
     <title>Willkommen zu guibian</title>
     <meta name="description" content="guibian: Raspberry Pi Monitoring Tool">
     <link href="./css/design.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="./favicon/favicon.ico">
 </head>
 
 <body>
@@ -34,10 +35,10 @@
     </div>
 
     <div id="boxen">
-        <div id="links"> Monitoring 1</div>
-        <div id="mitte"> Monitoring 2</div>
-        <div id="rechts"> Monitoring 3</div>
-        <div id="rechtsunten"> Monitoring 4</div>
+        <div id="links_oben" class="box"> Monitoring 1</div>
+        <div id="rechts_oben" class="box"> Monitoring 2</div>
+        <div id="links_unten" class="box"> Monitoring 3</div>
+        <div id="rechts_unten" class="box"> Monitoring 4</div>
     </div>
 
     <div id="footer">guibian wird seit 2016 von <a href="https://github.com/Dernert" target="_blank">Dernert</a> & <a

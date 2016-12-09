@@ -2,6 +2,7 @@ body {
     margin: 0 auto;
     background-color: white;
     font-family: "Arial", Courier, mono;
+
 }
 
 #wrapper {
@@ -9,13 +10,24 @@ body {
     width: 100%;
 }
 
+
 #header {
     background-color: #00a0d2;
     color: black;
-    height: 100px;
+    height: 120px;
     width: 100%;
     padding-top: 5px;
     padding-bottom: 25px;
+    border-color: #000000;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px;
+    border-style: solid;
+    background-position: left, top;
+    background-image: url(".././images/raspberry-penguin-152-191477.png");
+    background-repeat: no-repeat;
+
 }
 
 #footer {
@@ -27,77 +39,45 @@ body {
     bottom: 0px;
     text-align: center;
     padding-top: 10px;
+    border-color: #000000;
+    border-top: 1px;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    border-style: solid;
 }
 
-#links {
+.box{
     background-color: #00a0d2;
+    border-color: #000000;
+    box-shadow: 3px 3px 2px #000000;
+    color: #000000;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 10px;
+    float: left;
+    width: 30%;
+    height: 350px;
     margin-top: 10%;
+}
+#links_oben {
     margin-left: 5%;
-    float: left;
-    width: 30%;
-    height: 350px;
-    border-color: #000000;
-    box-shadow: 3px 3px 2px #000000;
-    color: #000000;
-    padding-top: 15px;
-    padding-bottom: 5px;
-    padding-left: 25px;
-    padding-right: 25px;
-    border-radius: 10px;
 }
 
-#mitte {
-    background-color: #00a0d2;
-    margin-top: 10%;
+#rechts_oben {
     margin-left: 10%;
-    float: left;
-    width: 30%;
-    height: 350px;
-    border-color: #000000;
-    box-shadow: 3px 3px 2px #000000;
-    color: #000000;
-    padding-top: 15px;
-    padding-bottom: 5px;
-    padding-left: 25px;
-    padding-right: 25px;
-    border-radius: 10px;
-
 }
 
-#rechts {
-    background-color: #00a0d2;
-    margin-top: 10%;
+#links_unten {
     margin-left: 5%;
     margin-bottom: 10%;
-    float: left;
-    width: 30%;
-    height: 350px;
-    border-color: #000000;
-    box-shadow: 3px 3px 2px #000000;
-    color: #000000;
-    padding-top: 15px;
-    padding-bottom: 5px;
-    padding-left: 25px;
-    padding-right: 25px;
-    border-radius: 10px;
 }
 
-#rechtsunten {
-    background-color: #00a0d2;
-    margin-top: 10%;
+#rechts_unten {
     margin-left: 10%;
     margin-bottom: 10%;
-    float: left;
-    width: 30%;
-    height: 350px;
-    border-color: #000000;
-    box-shadow: 3px 3px 2px #000000;
-    color: #000000;
-    padding-top: 15px;
-    padding-bottom: 5px;
-    padding-left: 25px;
-    padding-right: 25px;
-    border-radius: 10px;
 }
 
 #boxen {
