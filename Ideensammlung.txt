@@ -9,20 +9,26 @@
 Bash Scripting (Dernert)
 ------------------------
 Auslesen der verschiedensten Eigenschaften des Raspberry.
-- CPU Temp
 - Voltage
 - RAM
-- CPU Auslastung, Takt, Typ
+- Startzeit (Datum & Uhrzeit)
+- Uptime des Pi
+- CPU Auslastung, Takt, Typ, Temperatur
 - Freier Speicher
 - Belegter Speicher (/var/log, /lib/modules...)
-- Uptime
+- Gesamtspeicher
 - System Reboot / Shutdown (via PHP Admin Menü)
 - Interface, IP, MAC
 - Anzeige Traffic
 
-PHP Development (Funkahdafi)
-----------------------------
-- Auswerten und anzeigen der Shell-Scripte
-- Frontend-Design (CSS)
-- externer Admin-Bereich (Zugriffsschutz via .htaccess)
+PHP & CSS Development (Funkahdafi)
+----------------------------------
+- Anzeigen der Shell-Scripte
+- Frontend-/Admin-Frontend [Webgui in Bearbeitung]
+- externer Admin-Bereich 
+      - Zugriffsschutz via .htaccess
+      - Shutdown Pi
+      - Reboot Pi
+      - Möglichkeit *.gz Logiles löschen
+      - Möglichkeit überzählige "Kernel" in /lib/Modules zu löschen
 - MySQL Datenbank: avg(CPUTemp)
