@@ -1,88 +1,4 @@
-body {
-    margin: 0 auto;
-    background-color: white;
-    font-family: "Arial", Courier, mono;
-}
-
-#wrapper {
-    height: auto;
-    width: 100%;
-}
-
-#header {
-    background-color: #00a0d2;
-    color: #000000;
-    height: 120px;
-    width: 100%;
-    padding-top: 5px;
-    padding-bottom: 25px;
-    border-color: #000000;
-    border-top: 0;
-    border-left: 0;
-    border-right: 0;
-    border-bottom: 1px;
-    border-style: solid;
-    background-position: 100px, top;
-    background-image: url(".././images/raspberry-penguin-152-191477.png");
-    background-repeat: no-repeat;
-    text-align: center;
-}
-
-#footer {
-    background-color: #00a0d2;
-    color: black;
-    height: 30px;
-    position: fixed;
-    width: 100%;
-    bottom: 0px;
-    text-align: center;
-    padding-top: 10px;
-    border-color: #000000;
-    border-top: 1px;
-    border-left: 0;
-    border-right: 0;
-    border-bottom: 0;
-    border-style: solid;
-}
-
-.box {
-    background-color: #00a0d2;
-    border-color: #000000;
-    box-shadow: 3px 3px 2px #000000;
-    color: #000000;
-    padding-top: 15px;
-    padding-bottom: 5px;
-    padding-left: 25px;
-    padding-right: 25px;
-    border-radius: 10px;
-    float: left;
-    width: 30%;
-    height: 350px;
-    margin-top: 10%;
-}
-
-#links_oben {
-    margin-left: 5%;
-}
-
-#rechts_oben {
-    margin-left: 10%;
-}
-
-#links_unten {
-    margin-left: 5%;
-    margin-bottom: 10%;
-}
-
-#rechts_unten {
-    margin-left: 10%;
-    margin-bottom: 10%;
-}
-
-#boxen {
-    margin-left: 10%;
-    margin-right: auto;
-}
+/* Allgemein gültig für alle Auflösungen */
 
 a, a:link, a:visited {
     color: black;
@@ -92,4 +8,180 @@ a, a:link, a:visited {
 a:active, a:hover {
     color: black;
     text-decoration: underline;
+}
+
+/* Aufloesung fuer Tablets & Notebooks bis oben offen */
+@media only screen and (min-width: 768px) {
+    body {
+        margin: 0 auto;
+        background-color: white;
+        font-family: "Arial", Courier, mono;
+    }
+
+    #wrapper {
+        height: auto;
+        width: 100%;
+    }
+
+    #header {
+        background-color: #00a0d2;
+        color: #000000;
+        height: 120px;
+        width: 100%;
+        padding-top: 5px;
+        padding-bottom: 25px;
+        border-color: #000000;
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
+        border-bottom: 1px;
+        border-style: solid;
+        background-position: 100px, top;
+        background-image: url(".././images/raspberry-penguin-152-191477.png");
+        background-repeat: no-repeat;
+        text-align: center;
+    }
+
+    #footer {
+        background-color: #00a0d2;
+        color: black;
+        height: 30px;
+        position: fixed;
+        width: 100%;
+        bottom: 0px;
+        text-align: center;
+        padding-top: 10px;
+        border-color: #000000;
+        border-top: 1px;
+        border-left: 0;
+        border-right: 0;
+        border-bottom: 0;
+        border-style: solid;
+    }
+
+    .box {
+        background-color: #00a0d2;
+        border-color: #000000;
+        box-shadow: 3px 3px 2px #000000;
+        color: #000000;
+        padding-top: 15px;
+        padding-bottom: 5px;
+        padding-left: 25px;
+        padding-right: 25px;
+        border-radius: 10px;
+        float: left;
+        width: 30%;
+        height: 350px;
+        margin-top: 10%;
+    }
+
+    #links_oben {
+        margin-left: 5%;
+    }
+
+    #rechts_oben {
+        margin-left: 10%;
+    }
+
+    #links_unten {
+        margin-left: 5%;
+        margin-bottom: 10%;
+    }
+
+    #rechts_unten {
+        margin-left: 10%;
+        margin-bottom: 10%;
+    }
+
+    #boxen {
+        margin-left: 10%;
+        margin-right: auto;
+    }
+
+}
+
+/* Aufloesung fuer Smarphones bis 480 Pixel */
+@media only screen and (max-device-width: 480px) {
+    body {
+        margin: 0 auto;
+        background-color: #ffffff;
+        font-family: "Arial", Courier, mono;
+    }
+
+    #wrapper {
+        width: 100%;
+        height: auto;
+    }
+
+    #header {
+        background-color: #00a0d2;
+        color: #000000;
+        height: 43px;
+        width: 100%;
+        padding-top: 5px;
+        padding-bottom: 25px;
+        border-color: #000000;
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
+        border-bottom: 1px;
+        border-style: solid;
+        background-position: left, top;
+        background-image: url(".././images/raspberry-penguin-72-191477.png");
+        background-repeat: no-repeat;
+        text-align: center;
+    }
+
+    #footer {
+        background-color: #00a0d2;
+        font-size: x-small;
+        color: black;
+        height: 20px;
+        position: fixed;
+        width: 100%;
+        bottom: 0px;
+        text-align: center;
+        padding-top: 10px;
+        border-color: #000000;
+        border-top: 1px;
+        border-left: 0;
+        border-right: 0;
+        border-bottom: 0;
+        border-style: solid;
+    }
+
+    h1 {
+        font-size: small;
+        text-align: center;
+    }
+
+    p {
+        font-size: smaller;
+        text-align: center;
+    }
+
+    #boxen {
+        margin-left: 20px;
+    }
+
+    .box {
+        background-color: #00a0d2;
+        border-color: #000000;
+        box-shadow: 3px 3px 2px #000000;
+        color: #000000;
+        padding-top: 15px;
+        padding-bottom: 5px;
+        padding-left: 25px;
+        padding-right: 25px;
+        border-radius: 10px;
+        float: left;
+        width: 80%;
+        height: 300px;
+        margin-top: 10%;
+    }
+
+    #rechts_unten {
+        margin-bottom: 20%;
+    }
+
 }
