@@ -18,9 +18,11 @@
 <html lang="de">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
     <title>Willkommen zu guibian</title>
     <meta name="description" content="guibian: Raspberry Pi Monitoring Tool">
-    <link href="./css/design.css" rel="stylesheet">
+    <meta name="keywords" content="Raspberry,Pi,Monitor,Control">
+    <link href="./css/design.css" rel="stylesheet" media="screen">
     <link rel="icon" type="image/x-icon" href="./favicon/favicon.ico">
 </head>
 
@@ -30,7 +32,7 @@
 
     <div id="header">
         <h1>guibian: Raspberry Pi Monitoring</h1>
-        <p><a href=https://github.com/Dernert/guibian target=_blank>guibian's</a> Branch auf GitHub</p>
+        <p><a href=https://github.com/Dernert/guibian target=_blank>guibian's Branch auf GitHub</a></p>
         </center>
     </div>
 
@@ -43,12 +45,11 @@
 
     <div id="footer">guibian wird seit 2016 von <a href="https://github.com/Dernert" target="_blank">Dernert</a> & <a
                 href="https://github.com/Funkahdafi" target="_blank">Funkahdafi</a> entwickelt | <a
-                href="https://github.com/Dernert/guibian" target="_blank">guibian@GitHub</a></div>
+                href="https://github.com/Dernert/guibian" target="_blank">guibian@GitHub</a>
+    </div>
 
 </div>
 
 
 </body>
 </html>
-
-
