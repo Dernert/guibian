@@ -29,16 +29,16 @@
 <div id="wrapper">
 
     <div id="header">
-        <center><h1>guibian: Ein Raspberry Pi Monitoring Tool</h1></center>
-        <center><h4>Folge uns bei Github: <a href=https://github.com/Dernert/guibian target=_blank>guibian</a></h4>
+        <h1>guibian: Raspberry Pi Monitoring</h1>
+        <p><a href=https://github.com/Dernert/guibian target=_blank>guibian's</a> Branch auf GitHub</p>
         </center>
     </div>
 
     <div id="boxen">
-        <div id="links_oben" class="box"> Monitoring 1</div>
-        <div id="rechts_oben" class="box"> Monitoring 2</div>
-        <div id="links_unten" class="box"> Monitoring 3</div>
-        <div id="rechts_unten" class="box"> Monitoring 4</div>
+        <div id="links_oben" class="box"> Monitor 1</div>
+        <div id="rechts_oben" class="box"> Monitor 2</div>
+        <div id="links_unten" class="box"> Monitor 3</div>
+        <div id="rechts_unten" class="box"> Monitor 4</div>
     </div>
 
     <div id="footer">guibian wird seit 2016 von <a href="https://github.com/Dernert" target="_blank">Dernert</a> & <a
