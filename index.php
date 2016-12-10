@@ -13,7 +13,6 @@
  */
 
 ?>
-
 <!DOCTYPE html>
 <html lang="de">
 <head>
@@ -32,8 +31,7 @@
 
     <div id="header">
         <h1>guibian: Raspberry Pi Monitoring</h1>
-        <p><a href=https://github.com/Dernert/guibian target=_blank>guibian's Branch auf GitHub</a></p>
-        </center>
+        <p><a href="https://github.com/Dernert/guibian" target="_blank">guibian&apos;s Branch auf GitHub</a></p>
     </div>
 
     <div id="boxen">
@@ -43,13 +41,12 @@
         <div id="rechts_unten" class="box"> Monitor 4</div>
     </div>
 
-    <div id="footer">guibian wird seit 2016 von <a href="https://github.com/Dernert" target="_blank">Dernert</a> & <a
+    <div id="footer">guibian wird seit 2016 von <a href="https://github.com/Dernert" target="_blank">Dernert</a> &amp; <a
                 href="https://github.com/Funkahdafi" target="_blank">Funkahdafi</a> entwickelt | <a
                 href="https://github.com/Dernert/guibian" target="_blank">guibian@GitHub</a>
     </div>
 
 </div>
-
 
 </body>
 </html>
